@@ -45,24 +45,8 @@ public class Ders9 {
         System.out.println("Gun Numarasi : "+ bugun.getGunNo());
         System.out.println("Gunun Durumu : "+bugun.isHaftaIci());
 
-        Mevsimler mevsim = Mevsimler.YAZ;
-        switch (mevsim){
-            case ILKBAHAR:
-                System.out.println("Su an Ilkbahar mevsimindeyiz.");
-                break;
+        mevsimBelirle();
 
-            case YAZ:
-                System.out.println("Su an Yaz mevsimindeyiz.");
-                break;
-
-            case SONBAHAR:
-                System.out.println("Su an Sonbahar mevsimindeyiz.");
-                break;
-
-            case KIS:
-                System.out.println("Su an Kis mevsimindeyiz.");
-                break;
-        }
    }
 
     public class SabitOrnek{
@@ -144,6 +128,27 @@ public class Ders9 {
 
     public enum Mevsimler{
         ILKBAHAR,YAZ,SONBAHAR,KIS
+    }
+
+    static void mevsimBelirle(){
+        Mevsimler mevsim = Mevsimler.YAZ;
+        switch (mevsim){
+            case ILKBAHAR:
+                System.out.println("Su an Ilkbahar mevsimindeyiz.");
+                break;
+
+            case YAZ:
+                System.out.println("Su an Yaz mevsimindeyiz.");
+                break;
+
+            case SONBAHAR:
+                System.out.println("Su an Sonbahar mevsimindeyiz.");
+                break;
+
+            case KIS:
+                System.out.println("Su an Kis mevsimindeyiz.");
+                break;
+        }
     }
 
 
