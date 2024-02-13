@@ -1,5 +1,7 @@
 public class Ders9 {
 
+
+
     public static void main(String[] args) {
 
         double yaricap = 5.0;
@@ -46,6 +48,8 @@ public class Ders9 {
         System.out.println("Gunun Durumu : "+bugun.isHaftaIci());
 
         mevsimBelirle();
+
+        System.out.println(Ders11.hesaplaToplam(3,5));
 
    }
 
