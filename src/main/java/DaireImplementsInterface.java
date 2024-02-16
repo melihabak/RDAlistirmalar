@@ -1,6 +1,6 @@
 public class DaireImplementsInterface implements SekilInterface{
 
-    double PI = 3.145159;
+    private static final double PI = 3.145159;
     private int yaricap = 10;
 
     public DaireImplementsInterface(int yaricap) {

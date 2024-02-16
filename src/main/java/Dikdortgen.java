@@ -1,7 +1,7 @@
 public class Dikdortgen extends Sekil {
 
-    private static int en;
-    private static int boy;
+    private static int en ;
+    private static int boy ;
 
     public Dikdortgen(int en, int boy) {
         this.en = en;
@@ -18,5 +18,4 @@ public class Dikdortgen extends Sekil {
         int alan = en*boy;
         System.out.println("Dikdortgenin Alani : "+alan);
     }
-
 }

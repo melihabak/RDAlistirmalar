@@ -1,8 +1,9 @@
 public class Daire extends Sekil{
     private int yaricap;
-    double PI = 3.145159;
+    private static final double PI = 3.145159;
 
     public Daire(int yaricap) {
+
         this.yaricap = yaricap;
     }
 

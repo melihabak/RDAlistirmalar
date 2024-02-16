@@ -1,6 +1,6 @@
 public class DaireInheritance extends SekilInheritance {
 
-    double PI = 3.145159;
+    private static final double PI = 3.145159;
     private int yaricap ;
 
     public DaireInheritance(int x, int y, int yaricap) {
