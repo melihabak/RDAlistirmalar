@@ -1,12 +1,21 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class OrnekSinif {
 
     public static void main(String[] args) {
         
-        List olusturulanListe = listeOlustur();
-        yazdirListe(olusturulanListe);
+        //List olusturulanListe = listeOlustur();
+        //yazdirListe(olusturulanListe);
+
+
+        List<String> degerler = Arrays.asList("melih","abak","java");
+        List<String> sonuc = degerler.stream()
+                .filter(deger -> !"java".equals(degerler))
+                .collect(Collectors.toList());
+        sonuc.stream().forEach(System.out::print);
 
     }
 
