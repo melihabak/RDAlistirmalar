@@ -14,6 +14,5 @@ public class BufferedDosyaOkumaOrnegi {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-
     }
 }
